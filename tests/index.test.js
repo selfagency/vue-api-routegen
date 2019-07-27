@@ -42,17 +42,6 @@ const layouts = {
 }
 
 test('route builder', async () => {
-  const sample = [
-    {
-      children: [],
-      components: [{ default: [], index: null }],
-      hidden: false,
-      meta: { id: 19, index: false, order: 0, parent: null, title: 'Home' },
-      name: 'home',
-      path: '/',
-      props: true
-    }
-  ]
   const rts = await genRoutes(endpoint, layouts)
   expect(rts).toBeArray()
   console.log(rts)
