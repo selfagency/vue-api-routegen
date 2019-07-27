@@ -1,4 +1,5 @@
 # Welcome to vue-api-routegen 👋
+
 ![Version](https://img.shields.io/npm/v/vue-api-routegen.svg)
 [![Twitter: selfagency_llc](https://img.shields.io/twitter/follow/selfagency_llc.svg?style=social)](https://twitter.com/selfagency_llc)
 
@@ -15,18 +16,17 @@ npm install vue-api-routegen
 ## Usage
 
 ```sh
-import { routes, nav } from 'vue-api-routegen'
-const rts = await routes(endpoint, layouts)
-const nv = await nav(endpoint)
+import { genRoutes, genNav } from 'vue-api-routegen'
+const routes = await genRoutes(endpoint, layouts)
+const nav = await genNav(endpoint)
 ```
-
 
 ## Author
 
 👤 **Daniel Sieradski**
 
-* Twitter: [@selfagency_llc](https://twitter.com/selfagency_llc)
-* Gitlab: [@selfagency](https://gitlab.com/selfagency)
+- Twitter: [@selfagency_llc](https://twitter.com/selfagency_llc)
+- Gitlab: [@selfagency](https://gitlab.com/selfagency)
 
 ## 🤝 Contributing
 
