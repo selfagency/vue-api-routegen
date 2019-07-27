@@ -17,6 +17,7 @@ npm install vue-api-routegen
 
 ```sh
 import { genRoutes, genNav } from 'vue-api-routegen'
+
 const routes = await genRoutes(endpoint, layouts)
 const nav = await genNav(endpoint)
 ```

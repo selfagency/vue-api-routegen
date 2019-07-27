@@ -1,22 +1,38 @@
 {
-  "name": "vue-route-generator",
+  "name": "vue-api-routegen",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An opinionated utility for automatically generating Vue.js routes and navigation from your API",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "author": "Daniel Sieradski <hello@self.agency>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.0",
     "casex": "^3.0.0",
     "deepcopy": "^2.0.0",
-    "immutadot": "2.0.0-alpha.1",
     "typa": "^0.2.3",
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "jest": "^24.8.0",
     "jest-extended": "^0.11.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/selfagency/vue-route-generator.git"
+  },
+  "keywords": [
+    "vue",
+    "router",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://gitlab.com/selfagency/vue-route-generator/issues"
+  },
+  "homepage": "https://gitlab.com/selfagency/vue-route-generator#readme"
 }
