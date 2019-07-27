@@ -1,28 +1,25 @@
-# Welcome to vue-route-generator 👋
-![Version](https://img.shields.io/npm/v/vue-route-generator.svg)
+# Welcome to vue-api-routegen 👋
+![Version](https://img.shields.io/npm/v/vue-api-routegen.svg)
 [![Twitter: selfagency_llc](https://img.shields.io/twitter/follow/selfagency_llc.svg?style=social)](https://twitter.com/selfagency_llc)
 
 > An opinionated utility for automatically generating Vue.js routes and navigation from your API
 
-### 🏠 [Homepage](https://gitlab.com/selfagency/vue-route-generator)
+### 🏠 [Homepage](https://gitlab.com/selfagency/vue-api-routegen)
 
 ## Install
 
 ```sh
-npm install vue-route-generator
+npm install vue-api-routegen
 ```
 
 ## Usage
 
 ```sh
-import { routes, nav } from 'vue-route-generator'
+import { routes, nav } from 'vue-api-routegen'
+const rts = await routes(endpoint, layouts)
+const nv = await nav(endpoint)
 ```
 
-## Run tests
-
-```sh
-npm run test
-```
 
 ## Author
 
@@ -35,7 +32,7 @@ npm run test
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://gitlab.com/selfagency/vue-route-generator/issues).
+Feel free to check [issues page](https://gitlab.com/selfagency/vue-api-routegen/issues).
 
 ## Show your support
 

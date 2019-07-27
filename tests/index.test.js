@@ -1,5 +1,5 @@
 const Vue = require('vue')
-const { routes, nav } = require('../src/index')
+const { genRoutes, genNav } = require('../src/index')
 
 const endpoint = 'http://127.0.0.1:1337/pages'
 
@@ -53,12 +53,12 @@ test('route builder', async () => {
       props: true
     }
   ]
-  const rts = await routes(endpoint, layouts)
+  const rts = await genRoutes(endpoint, layouts)
   expect(rts).toBeArray()
   console.log(rts)
 })
 
 test('nav builder', async () => {
-  const nv = await nav(endpoint)
+  const nv = await genNav(endpoint)
   expect(nv).toBeArray()
 })
